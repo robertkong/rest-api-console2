@@ -35,6 +35,15 @@ gulp
     .pipe(gulp.dest('build'));
 })
 
+.task("plugin", ["plugin-vars", "public", "html", "js", "css"], function() {
+  gulp.src("build/dist/**")
+    .pipe(gulp.dest('build'));
+})
+
+.task("plugin-vars", function() {
+  public = 'build/dist/rest-console-embed';
+})
+
 .task("public", function() {
   return gulp.src('./public/**')
     .pipe(gulp.dest(public));
