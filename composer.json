@@ -1,0 +1,12 @@
+{
+    "name": "jeffstieler/rest-api-console2",
+    "description": "Fork of Automattic/rest-api-console2, 'a better REST console'.",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jeff Stieler",
+            "email": "jeff.m.stieler@gmail.com"
+        }
+    ]
+}
