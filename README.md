@@ -8,6 +8,8 @@ A better REST console. [See it in action][].
 
 Hacking requires node.js, install node.js for your system. (e.g. `brew install node`).
 
+Node: This only works with node-version 0.12.15  and wpcom-proxy-request v1.0.0
+
 To get up and running:
 
 1. Clone the repository
