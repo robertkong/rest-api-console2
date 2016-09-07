@@ -2,5 +2,5 @@
     "client_id": "12345",
     "redirect_uri": "http://example.com/path/to/app",
     "api_root": "https://public-api.wordpress.com/rest",
-    "oauth_uri": "https://public-api.wordpress.com/oauth2/authorize"
+    "oauth_url": "https://public-api.wordpress.com/oauth2/authorize"
 }

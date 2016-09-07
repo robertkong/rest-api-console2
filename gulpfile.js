@@ -57,7 +57,7 @@ gulp
 
 .task("app", function() {
   return browserify('./lib/app.js')
-    .transform({global:true}, "uglifyify")
+    // .transform({global:true}, "uglifyify")
     .bundle()
     .pipe(source('app.js'))
     .pipe(gulp.dest(public));
@@ -65,7 +65,7 @@ gulp
 
 .task("search", function() {
   return browserify('./lib/search.js')
-    .transform({global:true}, "uglifyify")
+    // .transform({global:true}, "uglifyify")
     .bundle()
     .pipe(source('search.js'))
     .pipe(gulp.dest(public));
